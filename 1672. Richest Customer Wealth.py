@@ -1,0 +1,3 @@
+class Solution:
+    def maximumWealth(self, accounts: List[List[int]]):
+        return max([sum(i) for i in accounts]) #I used list comprehension to minimize the lines and improve efficiency we can also use he usual step by step approach using variables!...
