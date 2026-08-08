@@ -4,8 +4,7 @@ class Solution {
            if(arr[i]<9){
             arr[i]++;
             return arr;           }
-        
-        arr[i]=0;
+            arr[i]=0;
         }
     int b[]=new int[arr.length+1];
     b[0]=1;
