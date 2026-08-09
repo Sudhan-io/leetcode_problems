@@ -6,8 +6,7 @@ class Solution {
         for(int i=1;i<nums.length;i++){
             l[i]=l[i-1]+nums[i-1];
             r[j]=r[j+1]+nums[j+1];
-            j--;
-        }
+            j--;}
         for(int i=0;i<nums.length;i++){
             if(l[i]==r[i]) return i;
         }
